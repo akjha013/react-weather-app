@@ -3,9 +3,7 @@ import '../styles/Weather.css'
 import WeatherDetails from './WeatherDetails';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
-//const API_KEY ='55bd067f002a4974c44abff58ec47d89';
-// const createAPIUrl = query =>
-// `https://api.openweathermap.org/data/2.5/weather?zip=${query},in&appid=${API_KEY}`;
+
 const createAPIUrl = query =>
 `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`;
 
