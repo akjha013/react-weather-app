@@ -1,0 +1,22 @@
+.backIcon{
+    top: 0;
+    left:0;
+    position: absolute;
+
+}
+
+.backIcon i {
+    font-size: 40vh;
+    z-index: 10000;
+    color: #5e5e45;
+    opacity: 0.2;
+    transform: translate(300px, 80px);
+}
+
+
+
+#tempDisplay{
+    text-shadow: 2px 2px 6px #838181;
+    
+    font-size: 4vw;
+}

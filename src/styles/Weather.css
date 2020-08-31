@@ -1,0 +1,39 @@
+
+.weather-con{
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
+    z-index: 100;
+    position: fixed;
+    overflow: hidden;
+}
+
+#search-ico{
+top:-40px;
+position: relative;
+cursor: pointer;
+color: white;
+}
+
+.animatedIcon{
+    
+    animation: iconAnimation 5s infinite linear;
+}
+
+@keyframes iconAnimation{
+    to{transform: rotate(360deg);}
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 8px #838181;
+}
+
+
+p i{
+    color: #e2bd43;
+    top: 5px;
+    left: 5px;
+    position: relative;
+}
+
